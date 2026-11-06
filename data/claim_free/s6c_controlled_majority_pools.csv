@@ -1,0 +1,5 @@
+scenario,scorer,n_questions,minority_doc_ranked_lowest,lo,hi,chance
+4 correct + 1 incorrect,Consensus (claim-free),42,0.2561904761904762,0.19880357142857139,0.31762797619047617,0.2
+4 correct + 1 incorrect,"ERS, label-free claim",42,0.21785714285714283,0.14773511904761907,0.2940535714285714,0.2
+1 correct + 4 incorrect,Consensus (claim-free),43,0.32639534883720933,0.27976453488372094,0.3768633720930233,0.2
+1 correct + 4 incorrect,"ERS, label-free claim",43,0.315,0.23650000000000002,0.3951279069767441,0.2

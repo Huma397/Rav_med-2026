@@ -1,0 +1,9 @@
+mode,condition,maybe,no,yes,overall
+proxy,CLEAN,0.75,0.75,0.908,0.842
+proxy,DRIFT,0.325,0.196,0.349,0.296
+proxy,NOISE,0.225,0.19,0.26,0.234
+proxy,CONTRADICTION,0.575,0.649,0.637,0.636
+oracle,CLEAN,0.875,0.637,0.914,0.818
+oracle,DRIFT,0.5,0.298,0.534,0.452
+oracle,NOISE,0.325,0.137,0.414,0.314
+oracle,CONTRADICTION,0.1,0.167,0.151,0.152

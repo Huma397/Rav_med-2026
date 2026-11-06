@@ -1,0 +1,4 @@
+method,device,params_M,ms_per_passage,passages_per_min,peak_gpu_GiB,repeats_ms,cost_relative_to_ERS_gpu,note
+ERS (SBERT + RoBERTa-large-MNLI),Tesla T4,463.7,51.13013818333343,1173.4761948982532,2.0825581550598145,"[47.9, 52.24, 51.13]",1.0,
+ERS on CPU (60 passages),CPU (2 cores),463.7,1978.846273133335,30.320697880687366,0.0,"[1971.7, 1978.85, 2015.97]",38.702149914751594,
+"LLM judge, 1 prompt (trust), Qwen2.5-7B 4-bit",Tesla T4,4353.0,868.1498689466677,69.11249099513016,7.225531578063965,"[869.11, 868.15, 866.49]",16.97922008021588,The 4-judge set used for the 'relevance minus contradiction' scores costs 2-4x this; ERS needs no extra pass.

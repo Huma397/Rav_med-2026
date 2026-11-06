@@ -1,0 +1,1 @@
+{"gpu": "Tesla T4", "n": 300, "seed": 42, "warmup": 2, "repeats": 3, "max_words": 250, "jbatch": 8}

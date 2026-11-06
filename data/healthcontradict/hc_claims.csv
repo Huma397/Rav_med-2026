@@ -1,0 +1,82 @@
+topic_id,query,query_stance,claim_free,claim_ref
+6,Is amygdalin or laetrile an effective cancer treatment?,no,Amygdalin or laetrile is an effective cancer treatment.,The proposition that amygdalin or laetrile is an effective cancer treatment does not hold.
+8,Can melatonin be used to reduce jet lag?,yes,Melatonin can be used to reduce jet lag.,Melatonin can be used to reduce jet lag.
+11,Can exercises relieve lower back pain?,yes,Exercises can relieve lower back pain.,Exercises can relieve lower back pain.
+12,Is male circumcision helpful in reducing heterosexual men's chances of getting HIV?,yes,Male circumcision is helpful in reducing heterosexual men's chances of getting HIV.,Male circumcision is helpful in reducing heterosexual men's chances of getting HIV.
+13,Find documents that discuss using antidepressants for helping to manage or relieve lower back pain.,no,Antidepressants are used to manage or relieve lower back pain.,The proposition that antidepressants are effective for managing or relieving lower back pain does not hold based on the available evidence.
+16,Can magnesium prevent muscle cramps?,no,Magnesium prevents muscle cramps.,The proposition that magnesium prevents muscle cramps does not hold.
+20,Can steroids be used as a treatment for spinal cord injury?,yes,Steroids can be used as a treatment for spinal cord injury.,Steroids can be used as a treatment for spinal cord injury.
+28,Can antibiotics be used as a treatment for whooping cough (pertussis)?,yes,Antibiotics can be used as a treatment for whooping cough (pertussis).,Antibiotics can be used as a treatment for whooping cough (pertussis).
+29,Can antibiotics be use to treat community acquired pneumonia in children?,yes,Antibiotics can be used to treat community acquired pneumonia in children.,Antibiotics can be used to treat community acquired pneumonia in children.
+38,Is lumbar traction an effective treatment for lower back pain?,no,Lumbar traction is an effective treatment for lower back pain.,Lumbar traction is not an effective treatment for lower back pain.
+40,Can cinnamon help people with diabetes?,no,Cinnamon helps people with diabetes.,The proposition that cinnamon can help people with diabetes does not hold.
+41,Can benzos (benzodiazepines) help with alcohol withdrawal?,yes,Benzos (benzodiazepines) can help with alcohol withdrawal.,Benzos can help with alcohol withdrawal.
+42,Are probiotics an effective treatment for eczema?,no,Probiotics are an effective treatment for eczema.,The proposition that probiotics are an effective treatment for eczema does not hold.
+44,Can vitamins help manage epilepsy?,no,Vitamins can help manage epilepsy.,The proposition that vitamins can help manage epilepsy does not hold.
+47,Can insoles treat back pain?,no,Insoles can treat back pain.,The proposition that insoles can treat back pain does not hold.
+49,Is sulfasalazine an effective treatment for rheumatoid arthritis?,yes,Sulfasalazine is an effective treatment for rheumatoid arthritis.,Sulfasalazine is an effective treatment for rheumatoid arthritis.
+50,Is bariatric surgery effective for obesity?,yes,Bariatric surgery is effective for obesity.,Bariatric surgery is effective for obesity.
+102,Is a tepid sponge bath a good way to reduce fever in children?,no,A tepid sponge bath is a good way to reduce fever in children.,A tepid sponge bath is not a good way to reduce fever in children.
+103,Can folic acid help improve cognition and treat dementia?,no,Folic acid improves cognition and treats dementia.,The evidence does not support the use of folic acid to improve cognition or treat dementia.
+104,Does duct tape work for wart removal?,no,Duct tape works for wart removal.,The proposition that duct tape works for wart removal does not hold.
+105,Should I apply ice to a burn?,no,Applying ice to a burn is not recommended.,The application of ice to a burn does not provide benefit and may cause further damage.
+107,Does yoga improve the management of asthma?,yes,Yoga improves the management of asthma.,Yoga improves the management of asthma.
+108,Is starving a fever effective?,no,Starving a fever is not effective.,The proposition that starving a fever is effective does not hold.
+109,Does selenium help prevent cancer?,no,Selenium helps prevent cancer.,The proposition that selenium helps prevent cancer does not hold.
+110,Will taking birth control pills treat an ovarian cyst?,no,Birth control pills treat an ovarian cyst.,The proposition that taking birth control pills will treat an ovarian cyst does not hold.
+111,Will taking zinc supplements improve pregnancy? ,no,Zinc supplements improve pregnancy.,The proposition that taking zinc supplements will improve pregnancy does not hold.
+114,Can applying vitamin E cream remove skin scars?,no,Applying vitamin E cream can remove skin scars.,The application of vitamin E cream does not remove skin scars.
+117,Can fermented milk help mitigate high blood pressure?,no,Fermented milk can help mitigate high blood pressure.,The proposition that fermented milk can help mitigate high blood pressure does not hold.
+118,Can dupixent treat eczema?,yes,Dupixent treats eczema.,Dupixent can treat eczema.
+120,Can the drug Imitrex (sumatriptan) treat acute migraine attacks?,yes,Imitrex (sumatriptan) treats acute migraine attacks.,Imitrex (sumatriptan) can treat acute migraine attacks.
+122,Does Aleve relieve migraine headaches?,no,Aleve relieves migraine headaches.,The evidence does not support that Aleve relieves migraine headaches.
+128,Does steam from a shower help croup?,no,Steam from a shower helps relieve croup symptoms.,The steam from a shower does not help croup.
+129,Can minoxidil treat hair loss?,yes,Minoxidil can treat hair loss.,Minoxidil can treat hair loss.
+131,Can l-theanine supplements reduce stress and anxiety?,yes,L-theanine supplements reduce stress and anxiety.,L-theanine supplements can reduce stress and anxiety.
+132,Does inhaling steam help treat common cold?,no,Inhaling steam helps treat common cold.,The proposition that inhaling steam helps treat common cold does not hold.
+134,Can I remove a tick by covering it with Vaseline?,no,Covering a tick with Vaseline does not effectively remove it.,The proposition that covering a tick with Vaseline is an effective method for removal does not hold.
+136,Can eating dates help manage iron deficiency anemia?,yes,Eating dates can help manage iron deficiency anemia.,Eating dates can help manage iron deficiency anemia.
+137,Will drinking vinegar dissolve a stuck fish bone?,no,Drinking vinegar will dissolve a stuck fish bone.,The proposition that drinking vinegar will dissolve a stuck fish bone does not hold.
+139,Can copper bracelets reduce the pain of arthritis?,no,Copper bracelets reduce the pain of arthritis.,The proposition that copper bracelets reduce the pain of arthritis does not hold.
+140,Can fungal creams treat athlete's foot?,yes,Fungal creams can treat athlete's foot.,Fungal creams can treat athlete's foot.
+143,Does Tylenol manage the symptoms of osteoarthritis? ,yes,Tylenol manages the symptoms of osteoarthritis.,Tylenol manages the symptoms of osteoarthritis.
+144,Can music therapy help manage depression?,yes,Music therapy can help manage depression.,Music therapy can help manage depression.
+146,Can vitamin D supplements improve the management of asthma?,yes,Vitamin D supplements improve the management of asthma.,Vitamin D supplements can improve the management of asthma.
+149,Will at-home exercises manage hip osteoarthritis pain?,yes,At-home exercises can manage hip osteoarthritis pain.,At-home exercises can manage hip osteoarthritis pain.
+151,Do tea bags help to clot blood in pulled teeth?,yes,Tea bags help to clot blood in pulled teeth.,Tea bags help to clot blood in pulled teeth.
+152,Can crystals heal?,no,Crystals can be used for healing.,The proposition that crystals can heal does not hold.
+153,Can collagen supplements cure osteoarthritis?,no,Collagen supplements cure osteoarthritis.,The proposition that collagen supplements can cure osteoarthritis does not hold.
+154,Can cell phones cause cancer?,no,Cell phones can cause cancer.,The proposition that cell phones cause cancer does not hold.
+155,Can you use WD-40 for arthritis?,no,WD-40 is not effective for arthritis.,The proposition that WD-40 can be used for arthritis does not hold.
+156,Can mosquito bites make you sick?,yes,Mosquito bites can make you sick.,Mosquito bites can make you sick.
+157,Can cancer be inherited?,yes,Cancer can be inherited.,Cancer can be inherited.
+158,Are vaccines linked to autism?,no,Vaccines are linked to autism.,The proposition that vaccines are linked to autism does not hold.
+159,Can baking soda help to cure cancer?,no,Baking soda can help cure cancer.,The proposition that baking soda can cure cancer does not hold.
+160,Are squats bad for knees?,no,Squats can be bad for knees if performed incorrectly.,The proposition that squats are bad for knees does not hold.
+161,Do ACE inhibitors typically cause erectile dysfunction?,no,ACE inhibitors typically cause erectile dysfunction.,The proposition that ACE inhibitors typically cause erectile dysfunction does not hold.
+162,Is morphine addictive?,yes,Morphine addiction is possible.,Morphine addiction is supported by scientific evidence.
+163,Can fruit juice increase the risk of diabetes?,yes,Fruit juice increases the risk of diabetes.,Fruit juice can increase the risk of diabetes.
+164,Do magnetic wrist straps help with arthritis?,no,Magnetic wrist straps help with arthritis.,The proposition that magnetic wrist straps help with arthritis does not hold.
+167,Are there health benefits to drinking your own urine?,no,Drinking one's own urine has no established health benefits.,The proposition that there are health benefits to drinking one's own urine does not hold.
+168,Is pink salt good for you?,no,Pink salt is good for you.,The proposition that pink salt is good for you does not hold.
+170,Can fish oil improve your cholesterol?,no,Fish oil can improve your cholesterol.,The proposition that fish oil can improve your cholesterol does not hold.
+173,Is hydroquinone banned in Europe?,yes,Hydroquinone is banned in Europe.,Hydroquinone is banned in Europe.
+175,Are carrots good for your eyes?,yes,Carrots are good for your eyes.,Carrots are good for your eyes.
+177,Can an MRI harm my baby?,no,An MRI can harm my baby.,The evidence does not support the idea that an MRI can harm your baby.
+178,Can exercise lower cholesterol?,yes,Exercise can lower cholesterol.,Exercise can lower cholesterol.
+179,Can chewing gum help lose weight?,no,Chewing gum can aid in weight loss.,The evidence does not support that chewing gum helps in losing weight.
+181,Did AIDS come from chimps?,yes,AIDS came from chimps.,AIDS did come from chimps.
+183,Can HIV be transmitted through sweat?,no,HIV cannot be transmitted through sweat.,The proposition that HIV can be transmitted through sweat does not hold.
+184,Do Himalayan salt lamps have health benefits?,no,Himalayan salt lamps have health benefits.,The proposition that Himalayan salt lamps have health benefits does not hold.
+185,Can a woman get pregnant while breastfeeding?,yes,Breastfeeding does not guarantee pregnancy prevention in women.,A woman can get pregnant while breastfeeding.
+186,Can statins cause permanent cognitive impairment?,no,Statins can cause permanent cognitive impairment.,The proposition that statins cause permanent cognitive impairment does not hold.
+187,Does Vitamin C prevent colds?,no,Vitamin C prevents colds.,The proposition that Vitamin C prevents colds does not hold.
+188,Can coffee help you lose weight?,yes,Coffee can help you lose weight.,Coffee can help you lose weight.
+189,Does drinking lemon water help with belly fat?,no,Drinking lemon water helps with belly fat.,The proposition that drinking lemon water helps with belly fat does not hold.
+190,Does deli meat increase your risk of colon cancer?,yes,Deli meat increases your risk of colon cancer.,Eating deli meat increases your risk of colon cancer.
+192,Can oil pulling heal cavities?,no,Oil pulling can heal cavities.,The proposition that oil pulling can heal cavities does not hold.
+193,Does a high fiber diet help with hemorrhoids?,yes,A high fiber diet helps with hemorrhoids.,A high fiber diet helps with hemorrhoids.
+194,Can grapefruit interfere with medication?,yes,Grapefruit can interfere with medication.,Grapefruit can interfere with medication.
+195,Can vape pens be harmful?,yes,Vape pens can be harmful.,Vape pens can be harmful.
+197,Is wifi harmful for health?,no,WiFi is harmful for health.,The proposition that wifi is harmful for health does not hold.
+199,Does ginger help with nausea?,yes,Ginger helps with nausea.,Ginger helps with nausea.
