@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+openpyxl
+torch
+transformers
+sentence-transformers
+faiss-cpu
+datasets
+bitsandbytes
+accelerate
