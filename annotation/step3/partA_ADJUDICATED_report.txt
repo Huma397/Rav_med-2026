@@ -1,0 +1,38 @@
+INTER-ANNOTATOR (n=130 base items): Cohen kappa = 0.697 (95% CI 0.589-0.798); raw agreement = 0.815
+  prevalence-robust supplements: Gwet AC1 = 0.735; PABAK = 0.723  (report alongside kappa; kappa can be low when labels are skewed even if agreement is high)
+label_2      CONTRADICTS  SUPPORTS  NEITHER
+label_1                                    
+CONTRADICTS           33         6        1
+SUPPORTS               3        13       10
+NEITHER                1         3       60
+  agreement within CLEAN: 0.400 (n=30)
+  agreement within DRIFT: 0.967 (n=30)
+  agreement within NOISE: 1.000 (n=30)
+  agreement within CONTRADICTION: 0.875 (n=40)
+INTRA-ANNOTATOR annotator 1 (n=12 repeated items): agreement = 1.000, kappa = 1.000
+INTRA-ANNOTATOR annotator 2 (n=12 repeated items): agreement = 0.833, kappa = 0.721
+
+Gold = agreed labels + adjudicated labels for disagreements (n=130 of 130; adjudicated 24)
+
+CONSTRUCTION VALIDITY (random stratum, gold labels)
+  CLEAN: labeled SUPPORTS in 25/30 = 0.833 (Wilson 95% CI 0.653-0.944); all labels {'SUPPORTS': 25, 'NEITHER': 4, 'CONTRADICTS': 1}
+  DRIFT: labeled NEITHER in 30/30 = 1.000 (Wilson 95% CI 0.884-1.000); all labels {'NEITHER': 30}
+  NOISE: labeled NEITHER in 30/30 = 1.000 (Wilson 95% CI 0.884-1.000); all labels {'NEITHER': 30}
+  CONTRADICTION: labeled CONTRADICTS in 30/30 = 1.000 (Wilson 95% CI 0.884-1.000); all labels {'CONTRADICTS': 30}
+  Full table, condition (rows) by gold human label (columns), random stratum:
+gold           CONTRADICTS  SUPPORTS  NEITHER
+condition                                    
+CLEAN                    1        25        4
+CONTRADICTION           30         0        0
+DRIFT                    0         0       30
+NOISE                    0         0       30
+  TARGETED low-contradiction-score CONTRADICTION items (n=10): {'CONTRADICTS': 8, 'SUPPORTS': 2}  -> labeled CONTRADICTS = true NLI misses; other = construction noise
+
+SYSTEM vs HUMAN (random stratum, gold labels; human positive = CONTRADICTS)
+  AUROC for human CONTRADICTS, NLI contradiction probability: 0.963 (95% CI 0.925-0.990)
+  AUROC for human CONTRADICTS, -ERS: 0.754 (95% CI 0.655-0.846)
+  AUROC for human CONTRADICTS, -similarity (similarity-only): 0.029 (95% CI 0.009-0.058)
+  NLI at C>=0.5: sensitivity 0.903, specificity 0.843, kappa vs human 0.669 (TP 28, FP 14, FN 3, TN 75)
+  AUROC for human SUPPORTS, ERS: 0.770
+  AUROC for human SUPPORTS, similarity: 0.656
+  AUROC for human SUPPORTS, -contradiction: 0.701

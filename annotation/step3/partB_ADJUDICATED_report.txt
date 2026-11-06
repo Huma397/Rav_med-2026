@@ -1,0 +1,40 @@
+INTER-ANNOTATOR (n=60 windows): Cohen kappa = 0.466 (95% CI 0.304-0.622); raw agreement = 0.600
+  prevalence-robust supplements: Gwet AC1 = 0.473; PABAK = 0.467  (report alongside kappa; kappa can be low when labels are skewed even if agreement is high)
+label_2       YES  NO  MIXED  NOT_RELEVANT
+label_1                                   
+YES             9   0      0             0
+NO              0   9      2             1
+MIXED           2   2      4             0
+NOT_RELEVANT    4   5      8            14
+  collapsed 3-way (YES / NO / OTHER = MIXED or NOT_RELEVANT): kappa = 0.552; clear stance vs no clear stance: kappa = 0.472
+INTRA-ANNOTATOR annotator 1 (n=6): agreement = 0.667
+INTRA-ANNOTATOR annotator 2 (n=6): agreement = 0.833
+
+Gold = agreed labels + adjudicated labels for disagreements (n=60 of 60; adjudicated 25)
+
+DOES THE TOP-1 WINDOW KEEP THE DOCUMENT STANCE? (gold human label vs dataset document stance)
+  correct documents: window stance = document stance in 18/30 = 0.600 (Wilson 0.406-0.773); opposite stance 0; MIXED 5; NOT_RELEVANT 7
+  incorrect documents: window stance = document stance in 1/30 = 0.033 (Wilson 0.001-0.172); opposite stance 5; MIXED 7; NOT_RELEVANT 17
+
+  Full table, gold human label (columns) by dataset document stance (rows; dataset has only YES/NO):
+gold             YES  NO  MIXED  NOT_RELEVANT
+doc_role  truth                              
+correct   NO       0   9      3             5
+          YES      9   0      2             2
+incorrect NO       3   0      4             6
+          YES      1   2      3            11
+  Among windows where humans see a clear stance (YES or NO; n=24), the stance matches the dataset in 19/24 = 0.792 (Wilson 0.578-0.929)
+  Note: MIXED or NOT_RELEVANT on a window is not an annotator error. It means the top-scoring excerpt does not carry the document stance, which is a property of the excerpt, not of the dataset label.
+
+HUMAN RELATION TO THE REFERENCE CLAIM (SUPPORTS = window gives the evidence-supported answer; CONTRADICTS = opposite answer)
+            S_top1        C_top1        ERS_top1       
+             count   mean  count   mean    count   mean
+rel                                                    
+CONTRADICTS      1  0.521      1  0.975        1 -0.454
+NEITHER         36  0.525     36  0.360       36  0.164
+SUPPORTS        23  0.640     23  0.073       23  0.567
+  AUROC separating human SUPPORTS from CONTRADICTS windows, ERS: 1.000 (95% CI nan-nan, n=24)
+  AUROC separating human SUPPORTS from CONTRADICTS windows, similarity: 0.957 (95% CI nan-nan, n=24)
+  AUROC separating human SUPPORTS from CONTRADICTS windows, -contradiction: 1.000 (95% CI nan-nan, n=24)
+
+ERS pairwise accuracy on the 30 sampled pairs (all): 0.800

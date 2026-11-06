@@ -1,0 +1,31 @@
+instance_id,topic_id,query,query_stance,correct_id,incorrect_id
+660,178,Can exercise lower cholesterol?,yes,904d4100a944,79c3653d140f
+306,146,Can vitamin D supplements improve the management of asthma?,yes,e8340a1f868e,cb8d737ee1d6
+637,175,Are carrots good for your eyes?,yes,307ebfa35b24,becd63f09f19
+25,29,Can antibiotics be use to treat community acquired pneumonia in children?,yes,8133f38c8fcb,6696b4d3d3ed
+22,28,Can antibiotics be used as a treatment for whooping cough (pertussis)?,yes,c7302fe9ebd6,504d72f050ab
+498,162,Is morphine addictive?,yes,8863986feb2c,7097d49380c7
+919,199,Does ginger help with nausea?,yes,429c078e0824,bb21210a0cd0
+47,49,Is sulfasalazine an effective treatment for rheumatoid arthritis?,yes,c85093fa4dfb,15fb6d483e9a
+632,173,Is hydroquinone banned in Europe?,yes,46431539581d,2395735f28f1
+873,193,Does a high fiber diet help with hemorrhoids?,yes,a5b4481d120f,dc9ce37d925b
+197,118,Can dupixent treat eczema?,yes,d97a94d7cd9b,490c7bbc8f8c
+422,157,Can cancer be inherited?,yes,9b54c950087d,a573cf0cc7e7
+322,151,Do tea bags help to clot blood in pulled teeth?,yes,11a456e7ee3a,a22303fd01d6
+562,167,Are there health benefits to drinking your own urine?,no,06f05f787e93,8db722f09d40
+911,197,Is wifi harmful for health?,no,840f131b8fa7,8018f24befb6
+753,186,Can statins cause permanent cognitive impairment?,no,3773edca6ae9,067359ea3f94
+446,158,Are vaccines linked to autism?,no,6f9366635ee7,3b1a203cb6da
+711,183,Can HIV be transmitted through sweat?,no,2def72f65383,ffa2f854d63d
+331,153,Can collagen supplements cure osteoarthritis?,no,1ec7eaf24144,00b8d9d69829
+1,6,Is amygdalin or laetrile an effective cancer treatment?,no,5ed0e9cabf72,187950a8f5ca
+42,44,Can vitamins help manage epilepsy?,no,26a7da250279,52d4e97ec3db
+258,134,Can I remove a tick by covering it with Vaseline?,no,a9c4e151bddb,c961477a549d
+674,179,Can chewing gum help lose weight?,no,e9046113c5a5,d1708f06213c
+200,122,Does Aleve relieve migraine headaches?,no,45f141bf5c56,3d9b69b1109f
+815,189,Does drinking lemon water help with belly fat?,no,1d77650581c7,4b73e96ffaec
+383,154,Can cell phones cause cancer?,no,3173e0102c24,6495f0d88d76
+166,109,Does selenium help prevent cancer?,no,46bef559d370,76e7e80c4bdb
+605,170,Can fish oil improve your cholesterol?,no,147f9141eae2,9305d586019e
+34,40,Can cinnamon help people with diabetes?,no,10cf0774374d,5285c5ff94de
+414,155,Can you use WD-40 for arthritis?,no,67f46956fe03,bbdf648fe0cd

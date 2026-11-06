@@ -1,0 +1,47 @@
+
+===== PART A =====
+TEST-RETEST (clinician, n=4 repeats): agreement 1.000
+CLINICIAN vs NON-CLINICIAN (base items)
+  clinician vs adjudicated non-clinician gold: n=60, raw agreement 0.967, Cohen kappa 0.944 (95% CI 0.855-1.000), Gwet AC1 0.953
+  clinician vs annotator 1: n=60, raw agreement 0.917, Cohen kappa 0.862 (95% CI 0.738-0.972), Gwet AC1 0.881
+  clinician vs annotator 2: n=60, raw agreement 0.883, Cohen kappa 0.799 (95% CI 0.659-0.918), Gwet AC1 0.836
+  confusion (rows clinician, columns non-clinician gold):
+gold_noncl   CONTRADICTS  SUPPORTS  NEITHER
+clin                                       
+CONTRADICTS           20         0        1
+SUPPORTS               0         8        0
+NEITHER                0         1       30
+  excluding clinician confidence 1 (n=60): agreement 0.967
+CONSTRUCTION VALIDITY by clinician label (base items; Wilson 95% CI)
+  CLEAN: 8/12 = 0.667 labelled SUPPORTS (CI 0.349-0.901); all: {'SUPPORTS': 8, 'NEITHER': 3, 'CONTRADICTS': 1}
+  DRIFT: 14/14 = 1.000 labelled NEITHER (CI 0.768-1.000); all: {'NEITHER': 14}
+  NOISE: 14/14 = 1.000 labelled NEITHER (CI 0.768-1.000); all: {'NEITHER': 14}
+  CONTRADICTION: 20/20 = 1.000 labelled CONTRADICTS (CI 0.832-1.000); all: {'CONTRADICTS': 20}
+SYSTEM vs CLINICIAN (positive = clinician CONTRADICTS)
+  AUROC NLI contradiction probability: 0.929 (CI 0.833-0.995)
+  AUROC -ERS: 0.746 (CI 0.595-0.886)
+  AUROC -similarity: 0.017 (CI 0.000-0.047)
+CLINICAL RISK: could_mislead YES in 19/60; by condition: {'CLEAN': 0.083, 'CONTRADICTION': 0.9, 'DRIFT': 0.0, 'NOISE': 0.0}
+  AUROC for could_mislead, -ERS: 0.702 (CI 0.538-0.855)
+  AUROC for could_mislead, NLI contradiction probability: 0.900 (CI 0.797-0.976)
+  AUROC for could_mislead, -similarity: 0.021 (CI 0.001-0.054)
+  ERS<0.0: flags 24; precision for could_mislead 0.625; recall 0.789
+  ERS<0.2: flags 38; precision for could_mislead 0.421; recall 0.842
+
+===== PART B =====
+TEST-RETEST (clinician, n=3 repeats): agreement 1.000
+CLINICIAN vs NON-CLINICIAN (base items)
+  clinician vs adjudicated non-clinician gold: n=40, raw agreement 0.750, Cohen kappa 0.655 (95% CI 0.458-0.824), Gwet AC1 0.671
+  clinician vs annotator 1: n=40, raw agreement 0.625, Cohen kappa 0.477 (95% CI 0.280-0.673), Gwet AC1 0.512
+  clinician vs annotator 2: n=40, raw agreement 0.725, Cohen kappa 0.628 (95% CI 0.426-0.800), Gwet AC1 0.635
+  confusion (rows clinician, columns non-clinician gold):
+gold_noncl    YES  NO  MIXED  NOT_RELEVANT
+clin                                      
+YES             8   0      1             1
+NO              0   5      0             3
+MIXED           1   0      5             3
+NOT_RELEVANT    0   0      1            12
+  excluding clinician confidence 1 (n=38): agreement 0.763
+STANCE FIDELITY of top-1 window vs the document stance (clinician): {'correct': 0.65, 'incorrect': 0.05}
+  AUROC of top-1 ERS for correct vs incorrect document: 0.890 (CI 0.774-0.975)
+  windows carrying a clear YES/NO stance: 18/40; by role: {'correct': 13, 'incorrect': 5}
