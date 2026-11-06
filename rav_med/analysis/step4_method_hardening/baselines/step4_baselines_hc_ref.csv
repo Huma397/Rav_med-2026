@@ -1,0 +1,18 @@
+Method,"Pairwise accuracy, ref claim",Diff vs ref (points)
+Similarity only (SBERT),"69.1 [65.2, 73.2]","-11.3 [-15.0, -7.7]"
+Relevance only (MedCPT-Cross-Encoder),"58.8 [54.7, 63.0]","-21.6 [-25.2, -17.8]"
+Relevance only (ms-marco-MiniLM-L-6-v2),"64.0 [59.3, 68.2]","-16.4 [-20.9, -12.1]"
+"Contradiction only, -C (roberta-large-mnli)","80.1 [76.3, 83.1]","-0.3 [-2.4, +1.7]"
+ERS = S - C (roberta-large-mnli),"80.4 [77.1, 83.5]",
+Entailment margin = E - C (roberta-large-mnli),"79.8 [75.8, 82.7]","-0.7 [-2.9, +1.3]"
+"Contradiction only, -C (DeBERTa-v3-large-mnli-fever-anli-ling-wanli)","76.0 [72.2, 79.2]","-4.5 [-7.8, -1.0]"
+ERS = S - C (DeBERTa-v3-large-mnli-fever-anli-ling-wanli),"79.0 [75.4, 82.1]","-1.4 [-3.4, +0.5]"
+Entailment margin = E - C (DeBERTa-v3-large-mnli-fever-anli-ling-wanli),"80.4 [77.2, 83.6]","+0.0 [-2.7, +3.0]"
+"Contradiction only, -C (PubMedBERT-MNLI-MedNLI)","66.8 [60.9, 71.7]","-13.6 [-19.3, -8.7]"
+ERS = S - C (PubMedBERT-MNLI-MedNLI),"74.0 [69.8, 78.0]","-6.4 [-10.6, -2.7]"
+Entailment margin = E - C (PubMedBERT-MNLI-MedNLI),"67.3 [62.0, 71.9]","-13.2 [-18.0, -8.5]"
+"Contradiction only, -C (nli-deberta-v3-large)","77.6 [73.6, 81.3]","-2.8 [-6.2, +0.6]"
+ERS = S - C (nli-deberta-v3-large),"78.7 [75.2, 81.9]","-1.7 [-4.4, +0.8]"
+Entailment margin = E - C (nli-deberta-v3-large),"78.0 [74.3, 81.2]","-2.4 [-5.8, +1.2]"
+sigmoid(MedCPT-Cross-Encoder) - C (roberta-large-mnli),"77.8 [73.7, 81.4]","-2.6 [-5.4, +0.1]"
+sigmoid(ms-marco-MiniLM-L-6-v2) - C (roberta-large-mnli),"76.7 [72.6, 80.4]","-3.7 [-6.9, -0.6]"

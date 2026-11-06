@@ -1,0 +1,53 @@
+FULL-DATA CURVES (descriptive, not for model selection)
+family      param  PQ_T1_conflict  PQ_T2_irrelevance  PQ_T3_pooled  PQ_balanced  LM_T1_conflict  LM_T2_irrelevance  LM_T3_pooled  LM_balanced  HC_ref  HC_free
+ ratio       0.00          0.1007             0.9806        0.6873       0.5407          0.1840             0.9883        0.7202       0.5862  0.6913   0.4554
+ ratio       0.25          0.4340             0.9574        0.7829       0.6957          0.6222             0.9731        0.8561       0.7976  0.7957   0.4283
+ ratio       0.50          0.6905             0.8977        0.8286       0.7941          0.8299             0.9477        0.9084       0.8888  0.8033   0.4217
+ ratio       0.75          0.7757             0.8543        0.8281       0.8150          0.8752             0.9270        0.9097       0.9011  0.8033   0.4239
+ ratio       1.00          0.8109             0.8271        0.8217       0.8190          0.8920             0.9138        0.9065       0.9029  0.8043   0.4272
+ ratio       1.50          0.8444             0.7940        0.8108       0.8192          0.9078             0.8997        0.9024       0.9038  0.8076   0.4293
+ ratio       2.00          0.8617             0.7735        0.8029       0.8176          0.9164             0.8892        0.8983       0.9028  0.8076   0.4315
+ ratio       3.00          0.8799             0.7486        0.7923       0.8142          0.9252             0.8767        0.8929       0.9010  0.8087   0.4293
+ ratio       5.00          0.8962             0.7226        0.7805       0.8094          0.9334             0.8601        0.8846       0.8968  0.8098   0.4272
+ ratio 1000000.00          0.9250             0.6407        0.7355       0.7829          0.9603             0.7286        0.8059       0.8445  0.8011   0.4261
+  gate       0.20          0.9193             0.6538        0.7423       0.7866          0.9574             0.7276        0.8042       0.8425  0.8000   0.4261
+  gate       0.30          0.9087             0.8184        0.8485       0.8636          0.9545             0.7427        0.8133       0.8486  0.8000   0.4261
+  gate       0.40          0.8763             0.9722        0.9403       0.9243          0.9448             0.9261        0.9323       0.9354  0.7946   0.4315
+  gate       0.50          0.7559             0.9806        0.9057       0.8682          0.9073             0.9881        0.9612       0.9477  0.7576   0.4304
+  gate       0.60          0.5400             0.9806        0.8337       0.7603          0.7494             0.9883        0.9086       0.8688  0.7033   0.4402
+  gate       0.70          0.2904             0.9806        0.7506       0.6355          0.4934             0.9883        0.8233       0.7408  0.7000   0.4587
+  prod        NaN          0.8699             0.8545        0.8596       0.8622          0.9089             0.9288        0.9222       0.9189  0.8033   0.4207
+   min        NaN          0.8787             0.8861        0.8836       0.8824          0.9066             0.9440        0.9315       0.9253  0.7793   0.4315
+
+PUBMEDQA 2-FOLD TUNE/TEST (200 random splits x 2 folds; tuned on balanced AUROC of conflict and irrelevance tasks)
+ family=gate: chosen param distribution {0.4: 400}
+   T1_conflict: tuned 0.8763 vs default(alpha=beta=1) 0.8109; diff +0.0655 (2.5-97.5 pct across splits +0.0509, +0.0798)
+   T2_irrelevance: tuned 0.9723 vs default(alpha=beta=1) 0.8271; diff +0.1451 (2.5-97.5 pct across splits +0.1264, +0.1642)
+   T3_pooled: tuned 0.9403 vs default(alpha=beta=1) 0.8217; diff +0.1186 (2.5-97.5 pct across splits +0.1037, +0.1337)
+   balanced: tuned 0.9243 vs default(alpha=beta=1) 0.8190; diff +0.1053 (2.5-97.5 pct across splits +0.0911, +0.1197)
+ family=ratio: chosen param distribution {1.5: 192, 1.0: 182, 2.0: 24, 0.75: 1, 3.0: 1}
+   T1_conflict: tuned 0.8295 vs default(alpha=beta=1) 0.8109; diff +0.0186 (2.5-97.5 pct across splits +0.0000, +0.0478)
+   T2_irrelevance: tuned 0.8071 vs default(alpha=beta=1) 0.8271; diff -0.0201 (2.5-97.5 pct across splits -0.0591, +0.0000)
+   T3_pooled: tuned 0.8145 vs default(alpha=beta=1) 0.8217; diff -0.0072 (2.5-97.5 pct across splits -0.0235, +0.0000)
+   balanced: tuned 0.8183 vs default(alpha=beta=1) 0.8190; diff -0.0007 (2.5-97.5 pct across splits -0.0057, +0.0003)
+
+HEALTHCONTRADICT 2-FOLD BY QUESTION (200 random splits x 2 folds; reference claim)
+ family=gate: chosen {0.2: 279, 0.3: 94, 0.4: 26, 0.5: 1}; test acc tuned 0.7982 vs default 0.8041 vs C-only 0.8009; diff -0.0059 (2.5-97.5 pct -0.0301, +0.0184)
+ family=ratio: chosen {5.0: 115, 1.5: 77, 0.5: 69, 3.0: 46, 2.0: 34, 1000000.0: 27, 1.0: 15, 0.25: 12, 0.75: 5}; test acc tuned 0.7999 vs default 0.8041 vs C-only 0.8009; diff -0.0042 (2.5-97.5 pct -0.0272, +0.0056)
+
+TRANSFER (parameter chosen on one dataset, evaluated on the other)
+ ratio: tuned on PubMedQA -> param 1.5; HC accuracy 0.8076 (default 0.8043)
+ ratio: tuned on HC -> param 5; PubMedQA balanced AUROC 0.8094 (default 0.8190)
+ gate: tuned on PubMedQA -> param 0.4; HC accuracy 0.7946 (default 0.8043)
+ gate: tuned on HC -> param 0.2; PubMedQA balanced AUROC 0.7866 (default 0.8190)
+
+RISK-BAND CALIBRATION (ERS, alpha=beta=1). Share of passages that are CLEAN (PubMedQA) / evidence-correct (HC ref) within each band
+ T=0.0: SAFE   PubMedQA n=2596 clean share=0.330 | HC n=1247 correct-doc share=0.646
+ T=0.0: RISKY  PubMedQA n= 726 clean share=0.076 | HC n= 139 correct-doc share=0.317
+ T=0.0: UNSAFE PubMedQA n= 678 clean share=0.130 | HC n= 454 correct-doc share=0.154
+ T=0.2: SAFE   PubMedQA n=1743 clean share=0.458 | HC n=1118 correct-doc share=0.678
+ T=0.2: RISKY  PubMedQA n= 853 clean share=0.069 | HC n= 129 correct-doc share=0.372
+ T=0.2: UNSAFE PubMedQA n=1404 clean share=0.102 | HC n= 593 correct-doc share=0.192
+ T=0.4: SAFE   PubMedQA n= 798 clean share=0.850 | HC n= 923 correct-doc share=0.715
+ T=0.4: RISKY  PubMedQA n= 945 clean share=0.127 | HC n= 195 correct-doc share=0.503
+ T=0.4: UNSAFE PubMedQA n=2257 clean share=0.089 | HC n= 722 correct-doc share=0.224
