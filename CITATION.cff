@@ -4,7 +4,7 @@ title: "RAV-Med: contradiction-aware evidence reliability scoring for medical RA
 authors:
   - family-names: Iqrar
     given-names: Huma
-license: MIT
+license: MIT  # code; derived data CC BY 4.0, see LICENSE_DATA.md
 version: "2.0"
 date-released: "2026-11-06"
 # Add: doi (after Zenodo release), repository-code (GitHub URL), and any co-authors.

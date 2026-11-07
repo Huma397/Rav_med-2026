@@ -33,7 +33,7 @@ print(sc.score(["Aspirin lowers reinfarction risk."], ["Aspirin did not reduce r
 | `notebooks/` | Colab notebooks that produced each result; see `notebooks/README_step6.md`. |
 | `analysis/` | Step 1 re-parse, Step 4 baselines, `step6/` paired analysis, `step7/` threshold, transfer and contradiction-feature analyses, `step8/` hybrid and cascade analyses (each with its fixed plan and results file). |
 | `annotation/step3/` | Human-validation protocol, scripts, adjudicated gold labels, answer keys, reports, deviations log. Annotation workbooks are not included because they contain HealthContradict text. |
-| `annotation/step5_clinician/` | Protocol, scripts, analysis report and deviations log for the blinded clinician review. The clinician's item-level answer key is not included. |
+| `annotation/step5_clinician/` | Protocol, scripts, analysis report and deviations log for the blinded clinician review. The physician's item-level labels are deliberately not released; only the aggregate analysis report is. |
 
 ## Reproducing
 1. **Headline numbers:** `python reproduce_key_numbers.py`.
@@ -51,5 +51,5 @@ print(sc.score(["Aspirin lowers reinfarction risk."], ["Aspirin did not reduce r
 
 ## Licence
 - Code: MIT (`LICENSE`).
-- Derived scores, tables and annotation records: licence chosen by the author at release (CC BY 4.0 suggested); to be stated here before the release is made public.
+- Derived scores, tables and annotation records: CC BY 4.0 (see `LICENSE_DATA.md`), except that files derived from SciFact are limited to non-commercial research use (see below).
 - Upstream data: PubMedQA is MIT. SciFact is CC BY-NC 2.0 per its dataset card; only IDs and scores derived from it are included, for non-commercial research use. The HealthContradict repository states no licence that we could find; check its terms before reusing its text.
