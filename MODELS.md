@@ -1,5 +1,5 @@
 # Models and revisions
-Revisions below were recorded by `analysis/step4_method_hardening/baselines/step4_model_info.json` (Step 4 run). Models used in earlier steps were loaded by name without a pinned revision; pin them yourself for exact replication.
+All models were loaded from the Hugging Face Hub. Exact revisions (git SHAs) were recorded for the models used in the Step 4 sensitivity analyses (`analysis/step4_method_hardening/baselines/step4_model_info.json`). For the remaining models, the main similarity encoder, the two generators and the judge, the revision was not recorded at run time and the table says so. Results from the 4-bit models may differ slightly with other library versions or hardware.
 
 | Role | Model | Revision (git SHA) |
 |---|---|---|
